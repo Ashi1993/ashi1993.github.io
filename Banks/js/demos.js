@@ -5,16 +5,16 @@ $(function () {
 
     if ($('html').hasClass('bank')) {
         var citizenBank = {
-            title: "Citizen Bank Open Banking Solution",
-            footer: "Citizen Bank",
+            title: "First Bank Open Banking Solution",
+            footer: "First Bank",
             style: "css/citizenbank.css",
-            logo: "img/citizen_bank_logo.png"
+            logo: "img/FirstBank.png"
         },
             eudcBank = {
-                title: "EUDC Bank Open Banking Solution",
-                footer: "EUDC Bank",
+                title: "Advans Banque Open Banking Solution",
+                footer: "Advans Banque",
                 style: "css/eudcbank.css",
-                logo: "img/eudc_bank_logo.png"
+                logo: "img/advans.png"
             };
 
         function updateStyles(bank, bankId) {
